@@ -1,0 +1,66 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#div1{
+    margin: auto;
+}
+
+body {
+    display: flex;
+    background-image: url(./seamless-dogs-pattern_1284-3639.jpg);
+    justify-content: center;
+    flex-direction: column;
+}
+
+#selector{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: auto;
+}
+
+#buttons-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#legend{
+    text-align: center;
+    background-color: white;
+    padding: 3px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#drop-down{
+    margin: auto;
+    margin-bottom: 3%;
+    width: fit-content;
+    font-size: x-large;
+}
+
+.button{
+    font-family: Fipps;
+    color: rgb(112, 99, 99);
+    font-weight: bold;
+    font-size: 25px;
+    background-color: greenyellow;
+    border-left: solid rgb(155, 146, 146) 2px;
+    border-top: solid rgb(155, 146, 146) 2px;
+    /* padding: 5%; */
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+#gen-rand-dog{
+    margin: auto;
+}
+
+#dog-pic{
+    border: solid black 3px;
+    display: flex;
+    margin: auto;
+}
